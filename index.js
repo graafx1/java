@@ -1,5 +1,5 @@
 // JavaScript File
-function rivn(a,b,c) {
+function equation(a,b,c) {
     var d;
     var x1;
     var x2;
@@ -22,6 +22,6 @@ var res=[];
 var k1=Number (prompt("Type coefficient a"));
 var k2=Number (prompt("Type coefficient b"));
 var k3=Number (prompt("Type coefficient c"));
-res=rivn(k1,k2,k3);
+res=equation(k1,k2,k3);
 alert (res);
 
